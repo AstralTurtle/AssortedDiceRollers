@@ -1,5 +1,5 @@
 #include <iostream>
-//#include <cstdlib>
+#include <cstdlib>
 #include <vector>
 #include <random>
 
@@ -33,7 +33,6 @@ int main() {
     std::uniform_int_distribution<> dis(1, sides);
 
 
-2
     std::vector<int> rolls(numDice);
 
     for (int i = 0; i < numDice; i++) {
