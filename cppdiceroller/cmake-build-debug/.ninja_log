@@ -1,0 +1,11 @@
+# ninja log v5
+0	440	7280068263620184	CMakeFiles/cppdiceroller.dir/main.cpp.obj	d08ca1b03476d105
+443	578	7280068264936022	cppdiceroller.exe	5b7a0b92d73f22bf
+2	493	7280068358143721	CMakeFiles/cppdiceroller.dir/main.cpp.obj	d08ca1b03476d105
+493	610	7280068359280322	cppdiceroller.exe	5b7a0b92d73f22bf
+3	470	7280080233749381	CMakeFiles/cppdiceroller.dir/main.cpp.obj	d08ca1b03476d105
+471	626	7280080235250311	cppdiceroller.exe	5b7a0b92d73f22bf
+2	596	7280080368282477	CMakeFiles/cppdiceroller.dir/main.cpp.obj	d08ca1b03476d105
+596	725	7280080369506424	cppdiceroller.exe	5b7a0b92d73f22bf
+2	503	7280082223535451	CMakeFiles/cppdiceroller.dir/main.cpp.obj	d08ca1b03476d105
+504	639	7280082224848536	cppdiceroller.exe	5b7a0b92d73f22bf
