@@ -1,6 +1,7 @@
 #include <iostream>
-#include <cstdlib>
+//#include <cstdlib>
 #include <vector>
+#include <random>
 
 // built with clion
 int main() {
@@ -26,14 +27,17 @@ int main() {
 
     int sides = std::stoi(input.substr(dind + 1, mind - dind - 1));
 
+//    init random
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dis(1, sides);
 
 
-
-
+2
     std::vector<int> rolls(numDice);
 
     for (int i = 0; i < numDice; i++) {
-        rolls.at(i) = rand() % sides + 1;
+        rolls.at(i) = dis(gen);
     }
     int mod = std::stoi(input.substr(mind, input.length() - mind));
     int sum = 0;
