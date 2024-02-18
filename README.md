@@ -8,5 +8,5 @@ Dice rollers made in a variaty of languages. Many of them are bad as they are us
 - C#
 - Dart
 - C++ (doesn't work on windows?)
-#### WIP
+### WIP
 - Rust
